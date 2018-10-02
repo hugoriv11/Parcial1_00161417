@@ -33,6 +33,10 @@ main {
     color: #fff;
     text-decoration: none;
 }
+.links li a:hover {
+    color: #fff;
+    text-decoration-line: underline;
+}
 .links .logo {
     height: 100px;
     width: 100px;
@@ -79,19 +83,55 @@ main {
 }
 .flex-container1 li {
    list-style: none;
+   z-index: 1;
 }
 .flex-container1 li a {
     color: #fff;
+    z-index: 1;
 }
 
-.grid-container {
+#grid-container {
     display: grid;
     grid-template-columns: repeat(3,33.3%);
     grid-template-rows: repeat(2,50%);
     background: #fff;
 }
-.f1 {
-    justify-content: center;
+#grid-container div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.f1 h1, .f1 p, .f2 h1, .f2 p, .f3 h1, .f3 p, .f4 h1, .f4 p, .f5 h1, .f5 p, .f6 h1, .f6 p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 100;
+    box-shadow: none;
+    line-height: 30px;
+    background-color: orange;
+    width: 300px;
+    list-style: none;
+    text-decoration-line: none;
+    font-style: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 100;
+    box-shadow: none;
+    line-height: 30px;
+    background-color: #fff;
+    width: 300px;
+    list-style: none;
+    text-decoration-line: none;
+    font-style: none;
+    color: orange;
+    font-family: 'Raleway', sans-serif;
 }
 
 .grid-container-2 .paralax-background {
@@ -121,4 +161,56 @@ main {
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.btn-form {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 100;
+    box-shadow: none;
+    line-height: 30px;
+    background-color: orange;
+    width: 300px;
+    list-style: none;
+    text-decoration-line: none;
+    font-style: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-form:hover {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 100;
+    box-shadow: none;
+    line-height: 30px;
+    background-color: transparent;
+    width: 300px;
+    list-style: none;
+    text-decoration-line: none;
+    font-style: none;
+    color: orange;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-grid p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+.footer-grid li {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-grid li a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
 }
