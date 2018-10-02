@@ -6,6 +6,13 @@
 :root {
     font-size: calc(0.3em + 1vw);
 }
+body {
+    background: #000;
+}
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 *, ::before, ::after {
     margin: 0; padding: 0; box-sizing: inherit;
 }
@@ -79,6 +86,10 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3,30%);
+    grid-template-columns: repeat(3,33.3%);
     grid-template-rows: repeat(2,50%);
+    background: #fff;
+}
+.f1 {
+    justify-content: center;
 }
