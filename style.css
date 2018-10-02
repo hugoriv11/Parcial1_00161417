@@ -70,3 +70,15 @@
     font-family: 'Raleway', sans-serif;
     color: #fff;
 }
+.flex-container1 li {
+   list-style: none;
+}
+.flex-container1 li a {
+    color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: repeat(2,50%);
+}
