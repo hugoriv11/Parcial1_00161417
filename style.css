@@ -93,3 +93,32 @@ main {
 .f1 {
     justify-content: center;
 }
+
+.grid-container-2 .paralax-background {
+    /* Create the parallax scrolling effect */
+    /*Codigo de Nexxtor*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-image: url("img/contacus.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.grid-container-2 .form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
