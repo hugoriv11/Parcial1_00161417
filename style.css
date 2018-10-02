@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Raleway');
+/*
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Monoton', cursive;
+*/
+:root {
+    font-size: calc(0.3em + 1vw);
+}
+*, ::before, ::after {
+    margin: 0; padding: 0; box-sizing: inherit;
+}
+.navbar {
+    width: 100%; height: 56px;
+    z-index: 1;
+}
+.navbar .links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color: #000;
+    position: relative;
+    height: 100%;
+}
+.links li a {
+    color: #fff;
+    text-decoration: none;
+}
+.links .logo {
+    height: 100px;
+    width: 100px;
+    background: #000;
+    position: absolute;
+    top: 4px;
+    padding: 0 5px 5px;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)
+}
+.links .logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.flex-container1 {
+    background: url(img/fondo.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: -1;
+}
+.flex-container1 p, .flex-container1 li {
+    padding-top: 200px;
+    padding-bottom: 50px; 
+}
+.flex-container1 .tittle {
+    font-family: 'Monoton', cursive;
+    color: #fff;
+    font-size: 100px;
+}
+.flex-container1 p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
